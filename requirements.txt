@@ -1,0 +1,8 @@
+langchain==0.2.12
+langchain-community==0.2.10
+transformers==4.44.0
+torch>=2.2.0
+accelerate>=0.30.0
+sentencepiece   # some HF models (like Qwen) require this
+protobuf        # tokenizer support
+neo4j==5.22.0
